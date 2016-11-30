@@ -12,6 +12,9 @@ public class MatchingADecimalNumbersNum1
     public void run(){
         System.out.print("\f");
         String[] numbers = {"3.14529", "-255.34","128","1.9e10","23,340.00","720p"};
+	
+	//regex pattern for  this assignment
+	String pattern = "^-*(\\d+(,\\d+)*(\\.\\d+)*e*\\d+)$";
         
         // write the necessary statemnets
     }
